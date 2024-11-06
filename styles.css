@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#task_controller{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    padding-bottom: 40px;
+    max-width: 400px;
+    text-align: center;
+    background-color: lightgrey;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#task_controller button{
+    margin-top: 10px;
+    display: block;
+    padding: 8px 15px;
+}
+
+#tasks_lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-item: flex-start;
+    max-width: 600px;
+    margin: auto;
+    background-color: grey;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+#tasks_lists > div{
+    flex:1;
+    padding: 15px 25px;
+    text-align:center;
+}
+
+.tasks{
+    min-height: 50px;
+}
+
+
